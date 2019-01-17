@@ -1,0 +1,57 @@
+.track-order .order-header {
+  border-radius: 0.25rem;
+  background-color: #f69e3c;
+  margin-top: 0.5rem; }
+
+.track-order .order-body .sim-card .list-ic li {
+  position: relative; }
+  .track-order .order-body .sim-card .list-ic li .ststus-box {
+    display: inline-block;
+    font-weight: 800;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 0.25em; }
+    .track-order .order-body .sim-card .list-ic li .ststus-box:before {
+      content: "\f096";
+      font-family: FontAwesome;
+      font-size: 30px;
+      color: #f69e3c; }
+  .track-order .order-body .sim-card .list-ic li .ststus-box-ed {
+    display: inline-block;
+    font-weight: 800;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 0.25em; }
+    .track-order .order-body .sim-card .list-ic li .ststus-box-ed:before {
+      content: "\f14a";
+      font-family: FontAwesome;
+      font-size: 30px;
+      color: #f69e3c; }
+  .track-order .order-body .sim-card .list-ic li .ststus-text {
+    color: #14113a;
+    padding-left: 0.5rem; }
+  .track-order .order-body .sim-card .list-ic li::before {
+    content: "";
+    position: absolute;
+    background: #f69e3c;
+    z-index: -1; }
+
+.track-order .order-body .sim-card .list-ic.vertical {
+  padding: 0;
+  margin: 0; }
+  .track-order .order-body .sim-card .list-ic.vertical li {
+    list-style-type: none;
+    text-align: left; }
+    .track-order .order-body .sim-card .list-ic.vertical li span {
+      margin: 1.4em 0; }
+    .track-order .order-body .sim-card .list-ic.vertical li::before {
+      top: -1.9rem;
+      left: 1rem;
+      width: 0.2rem;
+      height: 3.5rem; }
+    .track-order .order-body .sim-card .list-ic.vertical li:first-child::before {
+      display: none; }
